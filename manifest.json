@@ -1,0 +1,19 @@
+{
+  "name": "Build and Deploy App",
+  "description": "Chrome platform app.",
+  "manifest_version": 2,
+  "version": "0.2",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+	"webview"
+	],
+	"icons": {	
+		"32": "icon32.png",
+		"64": "icon64.png",
+		"128": "icon128.png" 
+	}
+}
